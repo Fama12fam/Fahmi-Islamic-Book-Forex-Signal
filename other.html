@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAHMI FIREX SIGNAL</title>
+    <link rel="stylesheet" href="style 2.css">
+</head>
+<header>
+    <ol><h1>FAHMI FOREX SIGNAL</h1></ol><nav>
+        <nav>
+        
+    </nav>
+    </header>
+    <section id="#services" class="services">
+<ul><h2> WELLCOM TO FOREX SIGNAL</h2>
+        <h3>TO CONTINUE WITH US</h3>
+        <h4>CLICK THE LINK BELOW</h4></ul>
+        <h2><ol><a href="http://t.me/FahmiForexSignal_bot" class="btn-button">FOREX SIGNAL</a></ol></h2>       
+        <OL><h3>BACK TO FAHMI BOOK STORE</h3></OL>
+        <h2><a href="index.html" class="btn-button">BACK BUTTON</a> </h2>     
+    </section>
+    
+<div class="container">
+    <div id="signup-form">
+        <h2>Sign Up</h2>
+        <form action="/signup" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+        <div class="toggle-form">
+            <p>Already have an account? <a href="#" onclick="toggleForms()">Login</a></p>
+        </div>
+    </div>
+
+    <section id="login-form" style="display:none;">
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <div class="toggle-form">
+            <p>Don't have an account? <a href="#" onclick="toggleForms()">Sign Up</a></p>
+        </div>
+    </section>
+</div>
+
+<script>
+    function toggleForms() {
+        const signupForm = document.getElementById('signup-form');
+        const loginForm = document.getElementById('login-form');
+        
+        if (signupForm.style.display === "none") {
+            signupForm.style.display = "block";
+            loginForm.style.display = "none";
+        } else {
+            signupForm.style.display = "none";
+            loginForm.style.display = "block";
+        }
+    }
+</script>
+
+</body>
+</html>
+</html>
